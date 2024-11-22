@@ -37,8 +37,8 @@ def get_github_info(name):
 
     return all_events
 
-# github username
-github_user = "TheVerg"  
+# Enter github username here
+github_user = "<username>"  
 user_info = get_github_info(github_user)
 
 if user_info:
